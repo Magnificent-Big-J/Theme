@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ECommerce Website</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="container-fluid bg-dark header-top d-none d-md-block">
+        <div class="container">
+            <div class="row text-light pt-2 pb-2">
+                <div class="col-md-5"><i class="fa fa-enveelope" aria-hidden="true"></i> King@example.com</div>
+                <div class="col-md-3"></div>
+                <div class="col-md-2"><i class="fa fa-user-o" aria-hidden="true"></i> Account </div>
+                <div class="col-md-2"><i class="fa fa-cart-plus" aria-hidden="true"></i> My cart - R0.00 </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-black">
+        <nav class="container navbar navbar-expand-lg navbar-dark bg-black">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </div>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="img/pexels-photo-219598.jpeg" alt="First slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Best winter collcction</h1>
+                    <p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
+                    <button class="btn btn-info btn-lg">Shop Now</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="img/pexels-photo-573271.jpeg" alt="Second slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Best winter collcction</h1>
+                    <p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
+                    <button class="btn btn-info btn-lg">Shop Now</button>
+                </div>
+            </div>
+
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <div class="container-fluid offer pt-3  pb-3 bg-orange d-none d-md-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 m-right">
+                    <h4>Free Shipping</h4>
+                    <p>On Order over R100.00</p>
+                </div>
+                <div class="col-md-4 m-right">
+                    <h4>Call  Us Anytime</h4>
+                    <p>+27115919144</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Our Locations</h4>
+                    <p>15 Tambach Road Sunninghill, South Africa, 2109</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-light-gray">
+        <div class="container pt-5">
+            <div class="row">
+                <h3>All Lady's Tops</h3>
+            </div>
+            <div class="underline">
+
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="img/pexels-photo-206410.jpeg" class="card-img-top">
+                        <div class="card-body">
+                            <h5>White Top</h5>
+                            <h5>R60.00</h5>
+                            <button class="btn btn-danger"><i class="fa fa-cart-plus" aria-hidden="true">Add To Cart</i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="img/pexels-photo-458768.jpeg" class="card-img-top">
+                        <div class="card-body">
+                            <h5>White Top</h5>
+                            <h5>R60.00</h5>
+                            <button class="btn btn-danger"><i class="fa fa-cart-plus" aria-hidden="true">Add To Cart</i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="img/pexels-photo-247855.jpeg" class="card-img-top">
+                        <div class="card-body">
+                            <h5>White Top</h5>
+                            <h5>R60.00</h5>
+                            <button class="btn btn-danger"><i class="fa fa-cart-plus" aria-hidden="true">Add To Cart</i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="img/pexels-photo-235497.jpeg" class="card-img-top">
+                        <div class="card-body">
+                            <h5>White Top</h5>
+                            <h5>R60.00</h5>
+                            <button class="btn btn-danger"><i class="fa fa-cart-plus" aria-hidden="true">Add To Cart</i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="row">
+                <h3>High Heel Shoes</h3>
+            </div>
+            <div class="row">
+                <div class="underline"></div>
+            </div>
+        </div>
+        <div class="container mt-5 pb-5">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="img/show%201.jpg" alt="show" class="card-img-top">
+                        <h5>Black Shoes</h5>
+                        <h6>R55.00</h6>
+                        <button class="btn btn-danger"><i class="fa fa-cart-plus" aria-hidden="true"></i>Add To Cart</button>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="img/show%202.jpg" alt="show" class="card-img-top">
+                        <h5>Black Shoes</h5>
+                        <h6>R55.00</h6>
+                        <button class="btn btn-danger"><i class="fa fa-cart-plus" aria-hidden="true"></i>Add To Cart</button>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="img/show%203.jpg" alt="show" class="card-img-top">
+                        <h5>Black Shoes</h5>
+                        <h6>R55.00</h6>
+                        <button class="btn btn-danger"><i class="fa fa-cart-plus" aria-hidden="true"></i>Add To Cart</button>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="img/show%204.jpg" alt="show" class="card-img-top">
+                        <h5>Black Shoes</h5>
+                        <h6>R55.00</h6>
+                        <button class="btn btn-danger"><i class="fa fa-cart-plus" aria-hidden="true"></i>Add To Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="row">
+                        <h4>Most Wanted</h4>
+                    </div>
+                    <div class="row">
+                        <div class="underline-green"></div>
+                    </div>
+                    <div class="media mt-5">
+                        <img src="img/belts-823257_1920-540x500.jpg" alt="media-img" class="img-fluid mr-3">
+                        <media class="body mt-2">
+                            <h5>Fitts Belt</h5>
+                            <h6>R35.00</h6>
+                            <button class="btn btn-success"><i class="fa fa-cart-plus" aria-hidden="true"></i>Add To Cart</button>
+                        </media>
+                    </div>
+                    <div class="media mt-5">
+                        <img src="img/fashion-731827_1920-540x500.jpg" alt="media-img" class="img-fluid mr-3">
+                        <media class="body mt-2">
+                            <h5>Magnolia Dress</h5>
+                            <h6>R35.00</h6>
+                            <button class="btn btn-success"><i class="fa fa-cart-plus" aria-hidden="true"></i>Add To Cart</button>
+                        </media>
+                    </div>
+                    <div class="media mt-5">
+                        <img src="img/jeans-428614_1920-540x500.jpg" alt="media-img" class="img-fluid mr-3">
+                        <media class="body mt-2">
+                            <h5>Rocadi Jeans</h5>
+                            <h6>R35.00</h6>
+                            <button class="btn btn-success"><i class="fa fa-cart-plus" aria-hidden="true"></i>Add To Cart</button>
+                        </media>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="row">
+                        <h4>Scarfs</h4>
+                    </div>
+                    <div class="row">
+                        <div class="underline-blue"></div>
+                    </div>
+                    <div class="media mt-5">
+                        <img src="img/a-neckerchief-1317830_1920-540x500.jpg" alt="media-img" class="img-fluid mr-3">
+                        <media class="body mt-2">
+                            <h5>Istwic Scarfs</h5>
+                            <h6>R35.00</h6>
+                            <button class="btn btn-success"><i class="fa fa-cart-plus" aria-hidden="true"></i>Add To Cart</button>
+                        </media>
+                    </div>
+                    <div class="media mt-5">
+                        <img src="img/a-neckerchief-1315912_1920-540x500.jpg" alt="media-img" class="img-fluid mr-3">
+                        <media class="body mt-2">
+                            <h5>Jennifer Scarf</h5>
+                            <h6>R35.00</h6>
+                            <button class="btn btn-success"><i class="fa fa-cart-plus" aria-hidden="true"></i>Add To Cart</button>
+                        </media>
+                    </div>
+                    <div class="media mt-5">
+                        <img src="img/a-neckerchief-1315916_1920-540x500.jpg" alt="media-img" class="img-fluid mr-3">
+                        <media class="body mt-2">
+                            <h5>Andora Scarf</h5>
+                            <h6>R35.00</h6>
+                            <button class="btn btn-success"><i class="fa fa-cart-plus" aria-hidden="true"></i>Add To Cart</button>
+                        </media>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="row">
+                        <h4>On Sale</h4>
+                    </div>
+                    <div class="row">
+                        <div class="underline-black"></div>
+                    </div>
+                    <div class="media mt-5">
+                        <img src="img/woman-1484279_1920-540x500.jpg" alt="media-img" class="img-fluid mr-3">
+                        <media class="body mt-2">
+                            <h5>Marina Style</h5>
+                            <h6>R35.00</h6>
+                            <button class="btn btn-success"><i class="fa fa-cart-plus" aria-hidden="true"></i>Add To Cart</button>
+                        </media>
+                    </div>
+                    <div class="media mt-5">
+                        <img src="img/key-692199_1920-540x500.jpg" alt="media-img" class="img-fluid mr-3">
+                        <media class="body mt-2">
+                            <h5>Marina Style</h5>
+                            <h6>R35.00</h6>
+                            <button class="btn btn-success"><i class="fa fa-cart-plus" aria-hidden="true"></i>Add To Cart</button>
+                        </media>
+                    </div>
+                    <div class="media mt-5">
+                        <img src="img/cute-955782_1920-540x500.jpg" alt="media-img" class="img-fluid mr-3">
+                        <media class="body mt-2">
+                            <h5>Manago Shirts</h5>
+                            <h6>R35.00</h6>
+                            <button class="btn btn-success"><i class="fa fa-cart-plus" aria-hidden="true"></i>Add To Cart</button>
+                        </media>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-light-gray pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h4>Featured</h4>
+            </div>
+            <div class="row">
+                <div class="underline"></div>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="img/pexels-photo-220449.jpeg" class="card-img-top" alt="image">
+                        <div class="card-body">
+                            <h4>Black Sgirt</h4>
+                            <h6>R67.00</h6>
+                            <button class="btn btn-danger"><i class="fa fa-cart-plus"></i>Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="img/pexels-photo-731794.jpeg" class="card-img-top" alt="image">
+                        <div class="card-body">
+                            <h4>Black Shirt</h4>
+                            <h6>R67.00</h6>
+                            <button class="btn btn-danger"><i class="fa fa-cart-plus"></i>Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="img/pexels-photo-245931.jpeg" class="card-img-top" alt="image">
+                        <div class="card-body">
+                            <h4>Black Shirt</h4>
+                            <h6>R67.00</h6>
+                            <button class="btn btn-danger"><i class="fa fa-cart-plus"></i>Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="img/pexels-photo-206454.jpeg" class="card-img-top" alt="image">
+                        <div class="card-body">
+                            <h4>Black Shirt</h4>
+                            <h6>R67.00</h6>
+                            <button class="btn btn-danger"><i class="fa fa-cart-plus"></i>Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <h4>From The Blog</h4>
+        </div>
+        <div class="row">
+            <div class="underline"></div>
+        </div>
+    </div>
+
+    <div class="container pb-5 blog">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="media mt-5">
+                    <img src="img/b1.jpg" class="img-fluid mr-3" alt="media1">
+                    <div class="media-body">
+                        <h5>Jackets For The Soul. What...</h5>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <p><i class="fa fa-user" aria-hidden="true"></i> Admin. Date:19-08-2018 </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="media mt-5">
+                    <img src="img/b2.jpg" class="img-fluid mr-3" alt="media1">
+                    <div class="media-body">
+                        <h5>Long Legs? No Longer And..</h5>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <p><i class="fa fa-user" aria-hidden="true"></i> Admin. Date:19-08-2018 </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="media mt-5">
+                    <img src="img/b3.jpg" class="img-fluid mr-3" alt="media1">
+                    <div class="media-body">
+                        <h5>Latest Trends For Autumn Are...</h5>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <p><i class="fa fa-user" aria-hidden="true"></i> Admin. Date:19-08-2018 </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="media mt-5">
+                    <img src="img/b4.jpg" class="img-fluid mr-3" alt="media1">
+                    <div class="media-body">
+                        <h5>Latest Trends For Autumn Are...</h5>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <p><i class="fa fa-user" aria-hidden="true"></i> Admin. Date:19-08-2018 </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid pt-5 pb-5 bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <h4>Trends</h4>
+            </div>
+            <div class="row">
+                <div class="underline-blue"></div>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="img/pexels-photo-247206.jpeg" class="card-img-top" alt="image">
+                        <div class="card-body">
+                            <h4>Denim Shirt</h4>
+                            <h6>R67.00</h6>
+                            <button class="btn btn-danger"> <i class="fa fa-cart-plus"></i> Add To Cart </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="img/pexels-photo-731794.jpeg" class="card-img-top" alt="image">
+                        <div class="card-body">
+                            <h4>Denim Shirt</h4>
+                            <h6>R67.00</h6>
+                            <button class="btn btn-danger"> <i class="fa fa-cart-plus"></i> Add To Cart </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="img/pexels-photo-206454.jpeg" class="card-img-top" alt="image">
+                        <div class="card-body">
+                            <h4>Denim Shirt</h4>
+                            <h6>R67.00</h6>
+                            <button class="btn btn-danger"> <i class="fa fa-cart-plus"></i> Add To Cart </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="img/pexels-photo-245931.jpeg" class="card-img-top" alt="image">
+                        <div class="card-body">
+                            <h4>Denim Shirt</h4>
+                            <h6>R67.00</h6>
+                            <button class="btn btn-danger"> <i class="fa fa-cart-plus"></i> Add To Cart </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container-fluid pt-5 bg-dark text-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="row">
+                            <h5>Meta</h5>
+                        </div>
+                        <div class="row mb-4">
+                            <div class="underline bg-light" style="width: 50px;"></div>
+                        </div>
+                        <p><i class="fa fa-chevron-right" aria-hidden="true"></i>Register</p>
+                        <p><i class="fa fa-chevron-right" aria-hidden="true"></i>Login</p>
+                        <p><i class="fa fa-chevron-right" aria-hidden="true"></i>Enter RSS</p>
+                        <p><i class="fa fa-chevron-right" aria-hidden="true"></i>Comments</p>
+                        <p><i class="fa fa-chevron-right" aria-hidden="true"></i>web Seo Tips</p>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="row">
+                            <h5>Recent Posts</h5>
+                        </div>
+                        <div class="row mb-4">
+                            <div class="underline bg-light" style="width: 50px;"></div>
+                        </div>
+                        <div class="row">
+                            <div class="media">
+                                <img src="img/b1.jpg" class="img-fluid" alt="media-image">
+                                <div class="media-body ml-2">
+                                    <h6>Jackets For The Soul. What Colour Is Yours?</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="media">
+                                <img src="img/b2.jpg" class="img-fluid" alt="media-image">
+                                <div class="media-body ml-2">
+                                    <h6>Best Fabrics For Your Dream Dress!</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="row">
+                            <h5>About</h5>
+                        </div>
+                        <div class="row mb-4">
+                            <div class="underline bg-light" style="width: 50px;"></div>
+                        </div>
+                        <div class="row">
+                            <p>
+                                Vestibulum turpis nibh, aliquet ut mauris quis, molestie varius sapien. Suspendisse quis justo vel ligula varius convallis. Cras ipsum justo, tincidunt sit amet eros quis, vulputate faucibus leo. Donec malesuada lectus eu fringilla ornare. In nec risus commodo diam tincidunt bibendum. Sed metus arcu, varius eu placerat eget, imperdiet vel nibh. Curabitur molestie urna at porta semper.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="row">
+                            <h5>Tags</h5>
+                        </div>
+                        <div class="row mb-4">
+                            <div class="underline bg-light" style="width: 50px;"></div>
+                        </div>
+                        <button class="btn btn-outline-light mt-2">Autumn</button>
+                        <button class="btn btn-outline-light mt-2">Dress</button>
+                        <button class="btn btn-outline-light mt-2">Ladies</button>
+                        <button class="btn btn-outline-light mt-2">Black Dress sun</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+<script src="js/jquery.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
