@@ -1,0 +1,14 @@
+ul{
+	list-style:none;
+	display:block;
+
+}
+li:hover{
+	
+background:lightgray;
+text-decoration: line-through;	
+
+}
+.completed{
+	text-decoration: line-through;
+}
